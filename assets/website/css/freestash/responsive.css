@@ -1,0 +1,191 @@
+/*
+*Template Name: Unship
+*Description: HTML5 / CSS3 Multi Page
+*Version: 1.0
+*Author: Cloud Software Solution Ltd.
+**************************************
+*/
+
+/*Extra small devices (phones, less than 768px) */
+
+@media only screen and (max-width : 320px) {
+  .branch,
+	.employee,
+	.delivery {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  };
+}
+
+@media only screen and (max-width : 767px) {
+
+	/*navigation*/
+  .navbar-toggle {
+    margin: 10px 0 0;
+  }
+	
+	/*home page*/
+  .service-home.section-padding {
+    padding-bottom: 50px;
+  }
+
+  .service-home .service {
+    margin-bottom: 60px;
+  }
+
+  .counter-section .counter-block {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .css-tab .nav-tabs>li {
+    margin: 10px 0;
+  }
+
+  .css-tab .nav-tabs>li>a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .css-tab .nav-tabs>li>a i::before {
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 0;
+  }
+
+  .css-tab2 .nav-tabs li a{
+    padding: 8px 5px;
+  }
+
+	/*career page*/
+
+  .career ul.joblist li:last-child {
+    float: none;
+    margin-left: }
+	.career ul.joblist li:nth-child(2){
+		margin-right: 20px;
+  };
+}
+
+@media only screen and (max-width : 479px) {
+	/*home*/
+  .partner-carousel-navigation .prev {
+    left: 82%;
+  }
+
+  .css-tab .nav-tabs>li {
+    display: block;
+    width: 100%;
+  }
+	/*about*/
+  .item .history-info {
+    padding: 30px;
+  }
+
+  .company-in-number i::before {
+    font-size: 50px;
+  }
+
+	/*blog*/
+  .blog-post-wrapper .css-post-link,
+	.blog-post-wrapper blockquote a {
+    font-size: 16px!important;
+    padding: 30px!important;
+    line-height: 20px;
+  }
+
+  .blog-post-wrapper blockquote footer {
+    bottom: 10px!important;
+  };
+}
+
+/* Small devices (tablets) */
+@media (min-width: 768px) {
+
+	/*navigation*/
+
+  .navbar {
+    padding: 15px 0;
+  }
+
+  .navbar.sticky {
+    padding: 10px 0;
+  }
+
+  .navbar-nav {
+    padding-top: 10px;
+  }
+
+  .sticky .navbar-nav {
+    padding-top: 10px;
+  }
+
+  .sticky .search-button,
+	.sticky .navbar-toggle {
+    margin-top: 10px;
+  }
+
+  .company-in-number i::before {
+    font-size: 60px;
+  };
+}
+
+@media (max-width: 991px) {
+  #mainContact {
+    margin-bottom: 60px;
+  };
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+  .partner-carousel-navigation .prev {
+    left: 85%;
+  };
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+}
+ 
+/* Desktops and laptops */
+@media only screen and (min-width : 1224px) {
+}
+
+@media only screen and (min-width : 992px) {
+
+  .section-padding {
+    padding: 80px 0;
+  }
+
+	/*Home page*/
+
+  .sidebar-wrapper.right-sidebar {
+    padding: 0 0 0 60px;
+  }
+
+  .sidebar-wrapper.left-sidebar {
+    padding: 0 60px 0 0;
+  }
+
+  .partner-carousel-navigation .prev,
+	.partner-carousel-navigation .next {
+    top: 50%;
+  }
+
+  .partner-carousel-navigation .prev {
+    left: -15px;
+  }
+
+  .partner-carousel-navigation .next {
+    right: -15px;
+  }
+	/*about page*/
+  .about-intro-section {
+    background-position: center;
+  };
+}
+ 
+/* Large devices (large desktops) */
+@media (min-width: 1200px) {
+}
+ 

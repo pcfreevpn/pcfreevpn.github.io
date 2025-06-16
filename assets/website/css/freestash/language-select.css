@@ -1,0 +1,178 @@
+/*----------------------------------
+Template Name: Unship
+Description: HTML5 / CSS3 Multi Page
+Version: 1.0
+Author: Cloud Software Solution Ltd.
+------------------------------------
+ 
+Default custom select styles */
+
+div.cs-select {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  text-align: left;
+  z-index: 100;
+  width: 100px;
+  max-width: 500px;
+  border-radius: 30px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+}
+
+.cs-select:focus {
+  outline: none;
+ /* For better accessibility add a style for this in your skin */
+  ;
+}
+
+.cs-select select {
+  display: none;
+}
+
+.cs-select span {
+  display: block;
+  font-size: 10px;
+  font-weight: 300;
+  position: relative;
+  cursor: pointer;
+  padding: 0 19px 0 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.cs-select span.cs-placeholder {
+  position: relative;
+  background: transparent;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.cs-select span.cs-placeholder:after {
+  content: "\f1ab";
+  position: absolute;
+  top: -3px;
+  right: -2px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 28px;
+  color: #343434;
+  font-family: FontAwesome;
+}
+
+.cs-select span.cs-placeholder[data-current="united-kingdom"]:after,
+.cs-select span.cs-placeholder[data-current="france"]:after,
+.cs-select span.cs-placeholder[data-current="spain"]:after,
+.cs-select span.cs-placeholder[data-current="bangladesh"]:after {
+  text-indent: 1000px;
+  background-size: 70%!important;
+}
+
+.cs-select span.cs-placeholder[data-current="united-kingdom"]:after {
+  background: #fff url(/assets/website/img/freestash/flags/united-kingdom.svg) no-repeat center;
+}
+
+.cs-select span.cs-placeholder[data-current="france"]:after {
+  background: #fff url(/assets/website/img/freestash/flags/france.svg) no-repeat center;
+}
+
+.cs-select span.cs-placeholder[data-current="spain"]:after {
+  background: #fff url(/assets/website/img/freestash/flags/spain.svg) no-repeat center;
+}
+
+.cs-select span.cs-placeholder[data-current="bangladesh"]:after {
+  background: #fff url(/assets/website/img/freestash/flags/bangladesh.svg) no-repeat center;
+}
+
+/* Placeholder and selected option */
+
+
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+  speak: none;
+  position: absolute;
+  top: 50%;
+}
+
+.cs-select > span::after {
+  right: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+}
+
+div.cs-active {
+  z-index: 200;
+}
+
+/* Options */
+.cs-select .cs-options {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options {
+  visibility: visible;
+  border-radius: 5px;
+}
+
+.cs-select ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.cs-select ul span {
+  padding: 0 10px;
+}
+
+.cs-select ul li.cs-focus span {
+  background-color: #ddd;
+}
+
+.cs-select .cs-options span {
+  background-repeat: no-repeat;
+  background-position: 12px 48%;
+  background-size: 15px auto;
+  padding: 0 0px 0 35px;
+}
+
+.cs-select .cs-options span:hover,
+.cs-select .cs-options li.cs-focus span,
+.cs-select .cs-options .cs-selected span {
+  color: #1e4c4a;
+}
+
+.cs-select .cs-options .cs-selected span::after {
+  content: '';
+}
+
+.cs-select .cs-options li.flag-uk span {
+  background-image: url(/assets/website/img/freestash/flags/united-kingdom.svg);
+}
+
+.cs-select .cs-options li.flag-france span {
+  background-image: url(/assets/website/img/freestash/flags/france.svg);
+}
+
+.cs-select .cs-options li.flag-spain span {
+  background-image: url(/assets/website/img/freestash/flags/spain.svg);
+}
+
+.cs-select .cs-options li.flag-bd span {
+  background-image: url(/assets/website/img/freestash/flags/bangladesh.svg);
+}
+
+

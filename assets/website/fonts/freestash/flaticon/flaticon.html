@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-airplane100"></div>
+		<div class="class-name">.flaticon-airplane100</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-front-ultrathin-transport_58999">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane101"></div>
+		<div class="class-name">.flaticon-airplane101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-ultrathin-outline_59020">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane103"></div>
+		<div class="class-name">.flaticon-airplane103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-ultrathin-outline_59223">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrows101"></div>
+		<div class="class-name">.flaticon-arrows101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrows-ultrathin-circle-in-clockwise-direction_59553">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-boat27"></div>
+		<div class="class-name">.flaticon-boat27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/boat-ultrathin-outline_59227">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-boat28"></div>
+		<div class="class-name">.flaticon-boat28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/boat-logistics-transport-with-boxes-inside_59308">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-boat29"></div>
+		<div class="class-name">.flaticon-boat29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/boat-outline_59359">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-box74"></div>
+		<div class="class-name">.flaticon-box74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/box-opened-outline_59185">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-box75"></div>
+		<div class="class-name">.flaticon-box75</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/box-open-container-with-arrow-pointing-in-it_59354">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-box76"></div>
+		<div class="class-name">.flaticon-box76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/box-on-band-conveyor-logistics-outline_59355">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-box77"></div>
+		<div class="class-name">.flaticon-box77</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/box-package-ultrathin-outline-with-up-arrow_59391">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-box78"></div>
+		<div class="class-name">.flaticon-box78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/box-ultrathin-outline_59455">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-boxes3"></div>
+		<div class="class-name">.flaticon-boxes3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/boxes-packages-stack-ultrathin-outlines_59395">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-broken43"></div>
+		<div class="class-name">.flaticon-broken43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/broken-glass-of-fragile-logistics-content-outlined-sign_59442">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-building70"></div>
+		<div class="class-name">.flaticon-building70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/building-outline_59363">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-calendar152"></div>
+		<div class="class-name">.flaticon-calendar152</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/calendar-empty-ultrathin-page_59499">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-callcenter"></div>
+		<div class="class-name">.flaticon-callcenter</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/call-center-woman-ultrathin-sign_58900">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular250"></div>
+		<div class="class-name">.flaticon-circular250</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-clockwise-arrow-ultrathin-outlined-sign_58956">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular251"></div>
+		<div class="class-name">.flaticon-circular251</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-clockwise-arrows-thin-outline_59184">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compass103"></div>
+		<div class="class-name">.flaticon-compass103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compass-outline_59297">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-crane16"></div>
+		<div class="class-name">.flaticon-crane16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/crane-logistics-transport-with-a-box-ultrathin-outlined-tools_58993">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delivery46"></div>
+		<div class="class-name">.flaticon-delivery46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delivery-time_58955">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delivery47"></div>
+		<div class="class-name">.flaticon-delivery47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delivery-logistics-truck-ultrathin-transport_59143">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delivery48"></div>
+		<div class="class-name">.flaticon-delivery48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delivery-time-ultrathin-sign_59159">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-furniture2"></div>
+		<div class="class-name">.flaticon-furniture2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/furniture-ultrathin-outline_59305">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-global34"></div>
+		<div class="class-name">.flaticon-global34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/global-phone-service-ultrathin-business-sign_59027">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-global35"></div>
+		<div class="class-name">.flaticon-global35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/global-logistics-service-outline_59432">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-global36"></div>
+		<div class="class-name">.flaticon-global36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/global-geolocalization-ultrathin-interface-sign_59440">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-information65"></div>
+		<div class="class-name">.flaticon-information65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/information-by-phone_59193">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-international33"></div>
+		<div class="class-name">.flaticon-international33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/international-geolocalization-ultrathin-outline_59317">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-international34"></div>
+		<div class="class-name">.flaticon-international34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/international_59409">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-label30"></div>
+		<div class="class-name">.flaticon-label30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/label-ultrathin-outline_59476">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistcs"></div>
+		<div class="class-name">.flaticon-logistcs</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-business-boxes-storage_59096">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics10"></div>
+		<div class="class-name">.flaticon-logistics10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-ultrathin-crane_58996">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics11"></div>
+		<div class="class-name">.flaticon-logistics11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-scale-ultrathin-outline_59003">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics12"></div>
+		<div class="class-name">.flaticon-logistics12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-platform-cart-with-baggage-ultrathin-outline_59033">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics13"></div>
+		<div class="class-name">.flaticon-logistics13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-transportation-ultrathin_59117">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics14"></div>
+		<div class="class-name">.flaticon-logistics14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-transportation-truck_59123">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics15"></div>
+		<div class="class-name">.flaticon-logistics15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-secure-ultrathin-outline_59126">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics16"></div>
+		<div class="class-name">.flaticon-logistics16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-global-delivery-ultrathin-business-sign_59136">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics17"></div>
+		<div class="class-name">.flaticon-logistics17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-and-eye-outlines_59140">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics18"></div>
+		<div class="class-name">.flaticon-logistics18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-orientation-compass-ultrathin-sign-with-arrows_59144">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics19"></div>
+		<div class="class-name">.flaticon-logistics19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-call-center-service-time_59150">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics20"></div>
+		<div class="class-name">.flaticon-logistics20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-truck-ultrathin-vehicle_59155">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics21"></div>
+		<div class="class-name">.flaticon-logistics21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-package-ultrathin-sign_59161">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics22"></div>
+		<div class="class-name">.flaticon-logistics22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-package-outline_59166">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics23"></div>
+		<div class="class-name">.flaticon-logistics23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-delivery-time-outlined-sign_59194">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics24"></div>
+		<div class="class-name">.flaticon-logistics24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-packing-box_59207">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics25"></div>
+		<div class="class-name">.flaticon-logistics25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-ultrathin-tools-outlines_59221">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics26"></div>
+		<div class="class-name">.flaticon-logistics26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-tool-ultrathin-outline_59235">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics27"></div>
+		<div class="class-name">.flaticon-logistics27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-and-a-person-outlines_59246">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics28"></div>
+		<div class="class-name">.flaticon-logistics28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-ultrathin-transport_59277">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics29"></div>
+		<div class="class-name">.flaticon-logistics29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-truck-ultrathin-vehicle-outline_59281">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics30"></div>
+		<div class="class-name">.flaticon-logistics30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-package-search-ultrathin-outline_59283">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics31"></div>
+		<div class="class-name">.flaticon-logistics31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-package-and-a-man-outlines_59291">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics32"></div>
+		<div class="class-name">.flaticon-logistics32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-truck-ultrathin-outline-carrying-a-box_59310">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics33"></div>
+		<div class="class-name">.flaticon-logistics33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-delivery-ultrathin-transport_59320">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics34"></div>
+		<div class="class-name">.flaticon-logistics34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-times_59322">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics35"></div>
+		<div class="class-name">.flaticon-logistics35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-truck-ultrathin-transport-outline_59327">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics36"></div>
+		<div class="class-name">.flaticon-logistics36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-container-ultrathin-outline_59333">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics37"></div>
+		<div class="class-name">.flaticon-logistics37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-package-ultrathin-outline_59351">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics38"></div>
+		<div class="class-name">.flaticon-logistics38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-verification-square-ultrathin-outline_59353">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics39"></div>
+		<div class="class-name">.flaticon-logistics39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-call-center-woman_59373">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics40"></div>
+		<div class="class-name">.flaticon-logistics40</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-boat-transport-ultrathin-vehicle-with-boxes_59380">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics41"></div>
+		<div class="class-name">.flaticon-logistics41</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-package-transportation-on-conveyor-band_59381">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics42"></div>
+		<div class="class-name">.flaticon-logistics42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-boat-transport-outline_59398">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics43"></div>
+		<div class="class-name">.flaticon-logistics43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-international-service-by-airplane_59406">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics44"></div>
+		<div class="class-name">.flaticon-logistics44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-truck-outline_59411">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics45"></div>
+		<div class="class-name">.flaticon-logistics45</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-and-clock-ultrathin-commercial-tools_59416">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics46"></div>
+		<div class="class-name">.flaticon-logistics46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-crane-truck-ultrathin-outline_59429">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics47"></div>
+		<div class="class-name">.flaticon-logistics47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-cube-box-ultrathin-outline_59438">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics48"></div>
+		<div class="class-name">.flaticon-logistics48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-package-outline-for-fragile-content_59443">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics49"></div>
+		<div class="class-name">.flaticon-logistics49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-scale-ultrathin-outline_59465">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics50"></div>
+		<div class="class-name">.flaticon-logistics50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-ultrathin-box-on-a-crane_59469">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics51"></div>
+		<div class="class-name">.flaticon-logistics51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-commercial-truck-ultrathin-transport_59503">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics52"></div>
+		<div class="class-name">.flaticon-logistics52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-online-commercial-service_59534">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics6"></div>
+		<div class="class-name">.flaticon-logistics6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-package-box-ultrathin-outline-with-an-eye_58920">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics7"></div>
+		<div class="class-name">.flaticon-logistics7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-boxes-stack-ultrathin-outline_58922">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics8"></div>
+		<div class="class-name">.flaticon-logistics8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-box-thin-outline-with-fragile-content_58935">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-logistics9"></div>
+		<div class="class-name">.flaticon-logistics9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/logistics-boxes-transport-ultrathin-tools_58972">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man456"></div>
+		<div class="class-name">.flaticon-man456</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-carrying-a-box-ultrathin-outline_59400">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-map98"></div>
+		<div class="class-name">.flaticon-map98</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/map-outline_59060">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men27"></div>
+		<div class="class-name">.flaticon-men27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-carrying-a-box_59083">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-package24"></div>
+		<div class="class-name">.flaticon-package24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/package-ultrathin-outline-with-four-directions-arrows_58915">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-package25"></div>
+		<div class="class-name">.flaticon-package25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/package-box-outline-with-up-arrows_59131">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-package26"></div>
+		<div class="class-name">.flaticon-package26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/package-box-thin-outline_59211">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-package27"></div>
+		<div class="class-name">.flaticon-package27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/package-box-ultrathin-outline_59299">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-person323"></div>
+		<div class="class-name">.flaticon-person323</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/person-carrying-box-package_59441">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-phone362"></div>
+		<div class="class-name">.flaticon-phone362</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/phone-ultrathin-auricular_58925">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-phone366"></div>
+		<div class="class-name">.flaticon-phone366</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/phone-talk-ultrathin-outline_59234">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-platform12"></div>
+		<div class="class-name">.flaticon-platform12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/platform-logistics-truck-carrying-a-box_59212">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-protected6"></div>
+		<div class="class-name">.flaticon-protected6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/protected-box-package-ultrathin-outline_58907">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-protected7"></div>
+		<div class="class-name">.flaticon-protected7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/protected-box-ultrathin-logistics-tools_59050">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-recycle71"></div>
+		<div class="class-name">.flaticon-recycle71</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/recycle-triangle-of-three-arrows-outlines_59485">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-search93"></div>
+		<div class="class-name">.flaticon-search93</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/search-on-map-ultrathin-sign_58988">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-telephone100"></div>
+		<div class="class-name">.flaticon-telephone100</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/telephone-ultrathin-outline_59251">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-telephone101"></div>
+		<div class="class-name">.flaticon-telephone101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/telephone-ultrathin-outline_59452">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-truck51"></div>
+		<div class="class-name">.flaticon-truck51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/truck-ultrathin-transport_59039">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-truck52"></div>
+		<div class="class-name">.flaticon-truck52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/truck-ultrathin-vehicle_59053">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two363"></div>
+		<div class="class-name">.flaticon-two363</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-arrows-clockwise-rotating-circle-ultrathin-outline_58983">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-umbrella48"></div>
+		<div class="class-name">.flaticon-umbrella48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/umbrella-ultrathin-outline_58971">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-umbrella49"></div>
+		<div class="class-name">.flaticon-umbrella49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/umbrella-ultrathin-outline_59233">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-upload108"></div>
+		<div class="class-name">.flaticon-upload108</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/upload-ultrathin-sign-outline_58977">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-weight15"></div>
+		<div class="class-name">.flaticon-weight15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/weight-ultrathin-logistics-outlined-tool_59097">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-airplane100&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane100"></i></p><p>&lt;i class=&quot;flaticon-airplane101&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane101"></i></p><p>&lt;i class=&quot;flaticon-airplane103&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane103"></i></p><p>&lt;i class=&quot;flaticon-arrows101&quot;&gt;&lt;/i&gt; <i class="flaticon-arrows101"></i></p><p>&lt;i class=&quot;flaticon-boat27&quot;&gt;&lt;/i&gt; <i class="flaticon-boat27"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-boat28&quot;&gt;&lt;/span&gt; <span class="flaticon-boat28"></span></p><p>&lt;span class=&quot;flaticon-boat29&quot;&gt;&lt;/span&gt; <span class="flaticon-boat29"></span></p><p>&lt;span class=&quot;flaticon-box74&quot;&gt;&lt;/span&gt; <span class="flaticon-box74"></span></p><p>&lt;span class=&quot;flaticon-box75&quot;&gt;&lt;/span&gt; <span class="flaticon-box75"></span></p><p>&lt;span class=&quot;flaticon-box76&quot;&gt;&lt;/span&gt; <span class="flaticon-box76"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-box77&quot;&gt;&lt;/span&gt; <span class="flaticon-box77"></span></p><p>&lt;i class=&quot;flaticon-box78&quot;&gt;&lt;/i&gt; <i class="flaticon-box78"></i></p><p>&lt;i class=&quot;flaticon-boxes3&quot;&gt;&lt;/i&gt; <i class="flaticon-boxes3"></i></p><p>&lt;i class=&quot;flaticon-broken43&quot;&gt;&lt;/i&gt; <i class="flaticon-broken43"></i></p><p>&lt;i class=&quot;flaticon-building70&quot;&gt;&lt;/i&gt; <i class="flaticon-building70"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-calendar152&quot;&gt;&lt;/span&gt; <span class="flaticon-calendar152"></span></p><p>&lt;span class=&quot;flaticon-callcenter&quot;&gt;&lt;/span&gt; <span class="flaticon-callcenter"></span></p><p>&lt;span class=&quot;flaticon-circular250&quot;&gt;&lt;/span&gt; <span class="flaticon-circular250"></span></p><p>&lt;span class=&quot;flaticon-circular251&quot;&gt;&lt;/span&gt; <span class="flaticon-circular251"></span></p><p>&lt;span class=&quot;flaticon-compass103&quot;&gt;&lt;/span&gt; <span class="flaticon-compass103"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

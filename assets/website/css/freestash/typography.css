@@ -1,0 +1,20 @@
+/*
+Template Name: Transport
+Description: HTML5 / CSS3 Multi Page
+Version: 1.0
+Author: Cloud Software Solution Ltd.
+*/
+
+.typography-elements .blog-post-wrapper {
+  margin-bottom: 20px;
+}
+
+.typography-elements .counter-block {
+  background: #666;
+  padding: 50px 5px;
+  margin-bottom: 30px;
+}
+
+.typography-elements img {
+  width: 100%;
+}
