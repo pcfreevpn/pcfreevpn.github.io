@@ -294,42 +294,13 @@ A4：若无法在电视上安装V2ray，可考虑在路由器端或其它中间�
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-5-29-free-node-subscribe-links.htm">PC Free VPN - 5月29日20.2M/S|免费SSR节点/Shadowrocket节点/Clash节点/Trojan节点/V2ray节点/Singbox节点节点推荐，VPN节点购买推荐</a></p>
+        <p>下一个：<a href="/free-nodes/2026-5-31-top-vpn-node.htm">PC Free VPN - 5月31日19.9M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点推荐，VPN节点购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 的协议插件如何增强连接稳定性？</h5></div>
+    <div class="panel-heading"><h5>Surfboard 在 iOS 上无法连接时如何调试？</h5></div>
     <div class="panel-body">
-        SSR 的协议插件可以增加流量的伪装特性，模拟常见协议或浏览器行为，从而降低被识别和封锁的风险。这对不稳定网络或高封锁环境尤其有帮助。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Vmess 节点配置时常见错误有哪些？</h5></div>
-    <div class="panel-body">
-        常见错误包括端口号不匹配、UUID 错误、TLS 设置不正确或传输类型配置错误。这些都会导致连接失败。检查服务器配置与客户端参数一致性是解决问题的关键。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 如何实现分流规则？</h5></div>
-    <div class="panel-body">
-        V2Ray 使用 routing 模块实现分流，可根据目标域名、IP、端口或协议类型决定流量走向。用户可自定义多个 outbound，并通过规则实现国内直连、国外代理等智能路由功能。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 如何进行远程控制管理？</h5></div>
-    <div class="panel-body">
-        可在配置中启用 external-controller 并绑定管理端口，使用 WebUI 或 Mihomo Dashboard 登录。可远程查看节点状态、切换代理、编辑规则，非常适合在服务器上集中管理多个客户端。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 ws+tls 传输模式有什么优点？</h5></div>
-    <div class="panel-body">
-        ws+tls 模式利用 WebSocket 伪装成普通 HTTPS 流量，使得防火墙难以区分代理与正常访问。该模式兼容性强，适合部署在支持 Nginx 或 Caddy 的 Web 服务器上。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Netch 的 TAP 模式与 TUN 模式区别是什么？</h5></div>
-    <div class="panel-body">
-        TAP 模式模拟以太网接口，适合游戏流量代理；TUN 模式则模拟 IP 层接口，更适合全局代理。根据用途不同可自由选择，但需管理员权限运行。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
-    <div class="panel-body">
-        在 PassWall2 面板中点击“订阅管理”，输入或更新订阅链接后，点击“手动更新”即可自动下载最新节点数据。也可设置定时任务每日自动更新，保持配置最新。<hr />    </div>
+        检查 iOS 的 VPN 配置权限是否授予，确认订阅链接或手动配置填写无误；查看 Surfboard 的日志或诊断页面，查看是否为 DNS 问题、TLS 错误或节点超时，并尝试切换节点或重启应用。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>如何在 Clash Premium 中使用 TUN 模式加速游戏？</h5></div>
@@ -337,14 +308,44 @@ A4：若无法在电视上安装V2ray，可考虑在路由器端或其它中间�
         Clash Premium 版本支持系统级 TUN 模式，可将所有 UDP 流量转发至代理节点。启用该模式后需管理员权限，并在配置文件中添加 dns 与 tun 模块，选择低延迟节点即可实现游戏加速。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 在 iOS 上无法连接时如何调试？</h5></div>
+    <div class="panel-heading"><h5>Netch 的 TAP 模式与 TUN 模式区别是什么？</h5></div>
     <div class="panel-body">
-        检查 iOS 的 VPN 配置权限是否授予，确认订阅链接或手动配置填写无误；查看 Surfboard 的日志或诊断页面，查看是否为 DNS 问题、TLS 错误或节点超时，并尝试切换节点或重启应用。<hr />    </div>
+        TAP 模式模拟以太网接口，适合游戏流量代理；TUN 模式则模拟 IP 层接口，更适合全局代理。根据用途不同可自由选择，但需管理员权限运行。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Surfboard 如何结合规则屏蔽广告？</h5></div>
     <div class="panel-body">
-        Surfboard 可通过规则文件匹配广告域名或 URL，并将其重定向或阻断。结合策略组自动更新规则，可实现广告屏蔽，提高浏览体验和节省带宽。    </div>
+        Surfboard 可通过规则文件匹配广告域名或 URL，并将其重定向或阻断。结合策略组自动更新规则，可实现广告屏蔽，提高浏览体验和节省带宽。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Vmess 节点配置时常见错误有哪些？</h5></div>
+    <div class="panel-body">
+        常见错误包括端口号不匹配、UUID 错误、TLS 设置不正确或传输类型配置错误。这些都会导致连接失败。检查服务器配置与客户端参数一致性是解决问题的关键。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 如何进行远程控制管理？</h5></div>
+    <div class="panel-body">
+        可在配置中启用 external-controller 并绑定管理端口，使用 WebUI 或 Mihomo Dashboard 登录。可远程查看节点状态、切换代理、编辑规则，非常适合在服务器上集中管理多个客户端。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 的协议插件如何增强连接稳定性？</h5></div>
+    <div class="panel-body">
+        SSR 的协议插件可以增加流量的伪装特性，模拟常见协议或浏览器行为，从而降低被识别和封锁的风险。这对不稳定网络或高封锁环境尤其有帮助。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 的 ws+tls 传输模式有什么优点？</h5></div>
+    <div class="panel-body">
+        ws+tls 模式利用 WebSocket 伪装成普通 HTTPS 流量，使得防火墙难以区分代理与正常访问。该模式兼容性强，适合部署在支持 Nginx 或 Caddy 的 Web 服务器上。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
+    <div class="panel-body">
+        在 PassWall2 面板中点击“订阅管理”，输入或更新订阅链接后，点击“手动更新”即可自动下载最新节点数据。也可设置定时任务每日自动更新，保持配置最新。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 如何实现分流规则？</h5></div>
+    <div class="panel-body">
+        V2Ray 使用 routing 模块实现分流，可根据目标域名、IP、端口或协议类型决定流量走向。用户可自定义多个 outbound，并通过规则实现国内直连、国外代理等智能路由功能。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -394,16 +395,16 @@ A4：若无法在电视上安装V2ray，可考虑在路由器端或其它中间�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-5-23-free-node-subscribe.htm" title="PC Free VPN - 5月23日20.6M/S|免费V2ray节点/SSR节点/Trojan节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月23日20.6M/S|免费V2ray节点/SSR节点/Trojan节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-28-mianfei-vpn.htm" title="PC Free VPN - 5月28日20M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月28日20M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-5-free-vpn.htm" title="PC Free VPN - 5月5日18.7M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月5日18.7M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-17-free-vpn-node.htm" title="PC Free VPN - 5月17日21.9M/S|免费Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月17日21.9M/S|免费Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-30-vpn-proxy.htm" title="PC Free VPN - 5月30日21M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月30日21M/S|免费SSR节点/Singbox节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-28-node-share-links.htm" title="PC Free VPN - 4月28日21.8M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 4月28日21.8M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-7-vpn-free.htm" title="PC Free VPN - 5月7日20.2M/S|免费Trojan节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月7日20.2M/S|免费Trojan节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-1-vpn-github.htm" title="PC Free VPN - 5月1日22M/S|免费Singbox节点/Clash节点/Shadowrocket节点/Trojan节点/V2ray节点/SSR节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月1日22M/S|免费Singbox节点/Clash节点/Shadowrocket节点/Trojan节点/V2ray节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-15-free-vpn-node.htm" title="PC Free VPN - 4月15日22.2M/S|免费SSR节点/Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 4月15日22.2M/S|免费SSR节点/Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-25-vpn-github.htm" title="PC Free VPN - 4月25日19.2M/S|免费Clash节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点节点推荐，VPN节点购买推荐">PC Free VPN - 4月25日19.2M/S|免费Clash节点/Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-25-mianfei-vpn.htm" title="PC Free VPN - 5月25日21.3M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月25日21.3M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-19-vpn-free.htm" title="PC Free VPN - 5月19日18.1M/S|免费SSR节点/Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月19日18.1M/S|免费SSR节点/Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-24-vpn-proxy.htm" title="PC Free VPN - 5月24日21.1M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月24日21.1M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-14-vpn-github.htm" title="PC Free VPN - 5月14日19.2M/S|免费Trojan节点/SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月14日19.2M/S|免费Trojan节点/SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-8-share-vpn.htm" title="PC Free VPN - 5月8日18.5M/S|免费Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月8日18.5M/S|免费Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-3-vpn-github.htm" title="PC Free VPN - 5月3日23M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Trojan节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月3日23M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Trojan节点/Clash节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-6-1-free-vpn.htm" title="PC Free VPN - 6月1日18.5M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点节点推荐，VPN节点购买推荐">PC Free VPN - 6月1日18.5M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-21-share-vpn.htm" title="PC Free VPN - 5月21日20.9M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月21日20.9M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-10-vpn-node.htm" title="PC Free VPN - 5月10日19.2M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Singbox节点/Trojan节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月10日19.2M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Singbox节点/Trojan节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-12-node-share.htm" title="PC Free VPN - 5月12日19.2M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 5月12日19.2M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -415,10 +416,10 @@ A4：若无法在电视上安装V2ray，可考虑在路由器端或其它中间�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">30</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
+                <h4><span class="badge" style="float: right;">8</span> <a href="/date/2026-06/" title="2026-06 归档">2026-06</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                     </ul>
     </div>
