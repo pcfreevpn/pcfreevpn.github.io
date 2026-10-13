@@ -1,4 +1,4 @@
-# PC Free VPN - 10月5日19.4M/S|免费SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点节点推荐，VPN节点购买推荐  更新时间 2026-10-05 01:08:04
+# PC Free VPN - 10月13日19.8M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点推荐，VPN节点购买推荐  更新时间 2026-10-13 09:52:06
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://pcfreevpn.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://pcfreevpn.github.io/uploads/2026/10/0-20261005.yaml
-- https://pcfreevpn.github.io/uploads/2026/10/1-20261005.yaml
-- https://pcfreevpn.github.io/uploads/2026/10/2-20261005.yaml
-- https://pcfreevpn.github.io/uploads/2026/10/3-20261005.yaml
-- https://pcfreevpn.github.io/uploads/2026/10/4-20261005.yaml
+- https://pcfreevpn.github.io/uploads/2026/10/0-20261013.yaml
+- https://pcfreevpn.github.io/uploads/2026/10/1-20261013.yaml
+- https://pcfreevpn.github.io/uploads/2026/10/2-20261013.yaml
+- https://pcfreevpn.github.io/uploads/2026/10/3-20261013.yaml
+- https://pcfreevpn.github.io/uploads/2026/10/4-20261013.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://pcfreevpn.github.io/uploads/2026/10/0-20261005.txt
-- https://pcfreevpn.github.io/uploads/2026/10/1-20261005.txt
-- https://pcfreevpn.github.io/uploads/2026/10/2-20261005.txt
-- https://pcfreevpn.github.io/uploads/2026/10/3-20261005.txt
-- https://pcfreevpn.github.io/uploads/2026/10/4-20261005.txt
+- https://pcfreevpn.github.io/uploads/2026/10/0-20261013.txt
+- https://pcfreevpn.github.io/uploads/2026/10/1-20261013.txt
+- https://pcfreevpn.github.io/uploads/2026/10/2-20261013.txt
+- https://pcfreevpn.github.io/uploads/2026/10/3-20261013.txt
+- https://pcfreevpn.github.io/uploads/2026/10/4-20261013.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://pcfreevpn.github.io/uploads/2026/10/20261005.json
+- https://pcfreevpn.github.io/uploads/2026/10/20261013.json
 
 ## 更多Clash节点订阅 ：
 
