@@ -168,12 +168,13 @@
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-11-16-vpn-node.htm">PC Free VPN - 11月16日20.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点/V2ray节点节点推荐，VPN节点购买推荐</a></p>
+        <p>下一个：<a href="/free-nodes/2026-11-18-vpn-proxy.htm">PC Free VPN - 11月18日18.7M/S|免费Clash节点/Shadowrocket节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点推荐，VPN节点购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess TLS 与 WebSocket 组合有哪些优势？</h5></div>
+    <div class="panel-heading"><h5>WinXray 是否支持多订阅源？</h5></div>
     <div class="panel-body">
-        TLS + WebSocket 可将 VMess 流量伪装为 HTTPS，隐藏真实通信特征。结合策略组使用，可增强抗封锁能力，提高节点稳定性和访问速度，特别适合视频和游戏场景。<hr />    </div>
+        支持。用户可导入多个订阅 URL，每个订阅源独立管理。通过切换订阅源或合并策略组，可灵活管理节点，实现不同地区或用途的线路分配。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Potatso Lite 支持手动和二维码导入节点吗？</h5></div>
@@ -181,34 +182,9 @@
         支持。用户可以手动添加节点信息，或者通过扫描节点二维码导入节点。虽然不支持自动订阅更新，但足够满足轻量用户对节点管理和分流的需求。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何优化 Clash 的 DNS 设置？</h5></div>
+    <div class="panel-heading"><h5>VMess TLS 与 WebSocket 组合有哪些优势？</h5></div>
     <div class="panel-body">
-        在 Clash 中使用自定义 DNS 可以加快域名解析速度。建议使用 doh（DNS over HTTPS）或 dot（DNS over TLS）配置方式，既能提升速度，也能保护隐私防止 DNS 泄露。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的策略组如何提升分流效率？</h5></div>
-    <div class="panel-body">
-        策略组可以将多个节点或规则组合在一起，实现按条件自动选择最佳节点。通过策略组，用户无需手动切换节点即可根据延迟、地理位置或流量类型自动分流，提高网络效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的规则订阅更新频率如何设置？</h5></div>
-    <div class="panel-body">
-        Clash 支持设置订阅规则的更新频率，例如每小时或每天。定期更新可保证节点和规则最新，减少手动维护，提高访问速度和分流效率，同时保持网络稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的 QUIC 协议如何降低延迟？</h5></div>
-    <div class="panel-body">
-        QUIC 协议基于 UDP，多路复用和拥塞控制优化，可减少握手延迟和包重传次数。Hysteria2 利用 QUIC 的特性，使高延迟或丢包网络下依然保持低延迟和高稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 多路复用在短连接中优势是什么？</h5></div>
-    <div class="panel-body">
-        多路复用允许多个短连接共享同一通道，减少握手延迟和资源消耗。适合高频短连接场景，如游戏和即时通讯，提升吞吐量和连接稳定性，优化网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 是否支持多订阅源？</h5></div>
-    <div class="panel-body">
-        支持。用户可导入多个订阅 URL，每个订阅源独立管理。通过切换订阅源或合并策略组，可灵活管理节点，实现不同地区或用途的线路分配。<hr />    </div>
+        TLS + WebSocket 可将 VMess 流量伪装为 HTTPS，隐藏真实通信特征。结合策略组使用，可增强抗封锁能力，提高节点稳定性和访问速度，特别适合视频和游戏场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hysteria2 的多路复用在短连接场景下有什么优势？</h5></div>
@@ -216,9 +192,34 @@
         多路复用允许多个短连接共享同一通道，减少握手延迟和资源消耗。适合高频短连接应用，如游戏和即时通讯，能提高吞吐量和连接稳定性，优化网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>如何优化 Clash 的 DNS 设置？</h5></div>
+    <div class="panel-body">
+        在 Clash 中使用自定义 DNS 可以加快域名解析速度。建议使用 doh（DNS over HTTPS）或 dot（DNS over TLS）配置方式，既能提升速度，也能保护隐私防止 DNS 泄露。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 的 QUIC 协议如何降低延迟？</h5></div>
+    <div class="panel-body">
+        QUIC 协议基于 UDP，多路复用和拥塞控制优化，可减少握手延迟和包重传次数。Hysteria2 利用 QUIC 的特性，使高延迟或丢包网络下依然保持低延迟和高稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 的配置文件与 Clash 有何区别？</h5></div>
     <div class="panel-body">
-        Sing-box 的配置使用 JSON 格式，而 Clash 采用 YAML 格式。前者更适合程序自动解析，后者更便于人工编辑。Sing-box 在性能和扩展性上有明显优势，支持更细粒度的流量控制。    </div>
+        Sing-box 的配置使用 JSON 格式，而 Clash 采用 YAML 格式。前者更适合程序自动解析，后者更便于人工编辑。Sing-box 在性能和扩展性上有明显优势，支持更细粒度的流量控制。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 的规则订阅更新频率如何设置？</h5></div>
+    <div class="panel-body">
+        Clash 支持设置订阅规则的更新频率，例如每小时或每天。定期更新可保证节点和规则最新，减少手动维护，提高访问速度和分流效率，同时保持网络稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 的策略组如何提升分流效率？</h5></div>
+    <div class="panel-body">
+        策略组可以将多个节点或规则组合在一起，实现按条件自动选择最佳节点。通过策略组，用户无需手动切换节点即可根据延迟、地理位置或流量类型自动分流，提高网络效率。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 多路复用在短连接中优势是什么？</h5></div>
+    <div class="panel-body">
+        多路复用允许多个短连接共享同一通道，减少握手延迟和资源消耗。适合高频短连接场景，如游戏和即时通讯，提升吞吐量和连接稳定性，优化网络体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -266,16 +267,16 @@
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/top-vpn-2026-10-23.htm" title="PC Free VPN - 10月23日21.1M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月23日21.1M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-11-14-vpn-proxy.htm" title="PC Free VPN - 11月14日20.4M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Trojan节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月14日20.4M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Trojan节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-24-free-node-subscribe.htm" title="PC Free VPN - 10月24日20.2M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月24日20.2M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-11-16-vpn-node.htm" title="PC Free VPN - 11月16日20.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点/V2ray节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月16日20.8M/S|免费Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-11-8-vpn-proxy.htm" title="PC Free VPN - 11月8日18.6M/S|免费Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月8日18.6M/S|免费Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/share-vpn-2026-10-17.htm" title="PC Free VPN - 10月17日22.7M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Trojan节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月17日22.7M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Trojan节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-20-node-share.htm" title="PC Free VPN - 10月20日19.1M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月20日19.1M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-11-2-free-node-subscribe.htm" title="PC Free VPN - 11月2日19M/S|免费Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月2日19M/S|免费Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-11-4-vpn-proxy.htm" title="PC Free VPN - 11月4日20.6M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月4日20.6M/S|免费Clash节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/top-vpn-2026-10-25.htm" title="PC Free VPN - 10月25日21.9M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月25日21.9M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/vpn-github-2026-11-17.htm" title="PC Free VPN - 11月17日21.1M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点/V2ray节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月17日21.1M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/Trojan节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-10-10-top-vpn-node.htm" title="PC Free VPN - 10月10日20.4M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点/V2ray节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月10日20.4M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点/V2ray节点节点推荐，VPN节点购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-vpn-2026-11-3.htm" title="PC Free VPN - 11月3日18.5M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月3日18.5M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-10-31.htm" title="PC Free VPN - 10月31日22.8M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月31日22.8M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-28-node-share.htm" title="PC Free VPN - 10月28日18.4M/S|免费Singbox节点/Clash节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月28日18.4M/S|免费Singbox节点/Clash节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-vpn-2026-11-7.htm" title="PC Free VPN - 11月7日20.5M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月7日20.5M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/mianfei-vpn-2026-11-11.htm" title="PC Free VPN - 11月11日18.4M/S|免费Trojan节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，VPN节点购买推荐">PC Free VPN - 11月11日18.4M/S|免费Trojan节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-vpn-2026-10-21.htm" title="PC Free VPN - 10月21日20.7M/S|免费SSR节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月21日20.7M/S|免费SSR节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，VPN节点购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-26-free-node-subscribe.htm" title="PC Free VPN - 10月26日21.5M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点/SSR节点节点推荐，VPN节点购买推荐">PC Free VPN - 10月26日21.5M/S|免费Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点/SSR节点节点推荐，VPN节点购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -287,7 +288,7 @@
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">17</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
+                <h4><span class="badge" style="float: right;">24</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">21</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
